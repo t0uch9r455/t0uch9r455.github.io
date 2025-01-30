@@ -24,7 +24,11 @@ Remember, a server should never blindly trust clients' input - even if the input
 
 this neans we should find a backend and try to send it inputs.
 
-Also we get a xss to show up using <script>alert(1)</script>
+Also we get a xss to show up using 
+
+```
+<script>alert(1)</script>
+```
 
 ```
 <script>
