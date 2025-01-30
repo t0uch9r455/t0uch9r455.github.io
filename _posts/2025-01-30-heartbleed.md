@@ -7,7 +7,7 @@ description: web
 
 Note: You may run these commands on one or two VMs.
 
-if we open <target>.js, we get the following:
+if we open `<target>`.js, we get the following:
 
 function callme() {
   console.log("UmVtZW1iZXIsIGEgc2VydmVyIHNob3VsZCBuZXZlciBibGluZGx5IHRydXN0IGNsaWVudHMnIGlucHV0IC0gZXZlbiBpZiB0aGUgaW5wdXQgaXMgZ2VuZXJhdGVkIGJ5IGEgc2NyaXB0Lg==");
@@ -41,7 +41,7 @@ and we get a get request.
 
 However no luck from this as it is not a flag.
 
- nmap -sV -sC <target>.com
+ nmap -sV -sC `<target>`.com
 
 Not shown: 996 filtered tcp ports (no-response)
 PORT     STATE SERVICE  VERSION
@@ -51,16 +51,16 @@ PORT     STATE SERVICE  VERSION
 443/tcp  open  ssl/http Cloudflare http proxy
 |_http-server-header: cloudflare
 |_http-title: Smash - Bootstrap Business Template
-| ssl-cert: Subject: commonName=<target>.com
-| Subject Alternative Name: DNS:<target>.com, DNS:*.<target>.com
+| ssl-cert: Subject: commonName=`<target>`.com
+| Subject Alternative Name: DNS:`<target>`.com, DNS:*.`<target>`.com
 | Not valid before: 2025-01-06T20:25:26
 |_Not valid after:  2025-04-06T21:16:18
 8080/tcp open  http     Cloudflare http proxy
 |_http-server-header: cloudflare
 |_http-title: Smash - Bootstrap Business Template
 8443/tcp open  ssl/http Cloudflare http proxy
-| ssl-cert: Subject: commonName=<target>.com
-| Subject Alternative Name: DNS:<target>.com, DNS:*.<target>.com
+| ssl-cert: Subject: commonName=`<target>`.com
+| Subject Alternative Name: DNS:`<target>`.com, DNS:*.`<target>`.com
 | Not valid before: 2025-01-06T20:25:26
 |_Not valid after:  2025-04-06T21:16:18
 |_http-server-header: cloudflare
