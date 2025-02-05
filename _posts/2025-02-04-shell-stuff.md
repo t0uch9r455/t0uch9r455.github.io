@@ -1,6 +1,6 @@
 ---
 title: shell stuff
-description: assembly
+description: linux
 ---
 
 # shell stuff 
@@ -18,8 +18,7 @@ The authoritative server for sfu.ca responds to the local resolver which we then
 
 ### getting a reverse shell
 
-The command to run first is nc -nlvp 9090. This is because you want to set up the listener first for the shell to connect back to the attacker.
-
+The command to run first is nc -nlvp 9090. This is because you want to set up the listener first for the shell to connect back to the attacker
 
 ### more on reverse shells
 
